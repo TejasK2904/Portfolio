@@ -5,48 +5,97 @@ function About() {
       <div className="max-w-7xl mx-auto">
 
         {/* Heading */}
-        <h2 className="text-4xl font-bold text-center mb-12">
+
+        <h2 className="text-4xl md:text-5xl font-bold text-center">
           About Me
         </h2>
 
-        {/* Content Box */}
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <p className="text-center text-gray-400 mt-4 max-w-3xl mx-auto">
+          Get to know more about my background, technical expertise, and passion
+          for transforming business data into meaningful insights.
+        </p>
 
-          {/* Left Side Text */}
-          <div className="space-y-6 text-white/70 leading-7">
+        {/* Content */}
 
-            <p>
-              I am a passionate Data Analyst skilled in SQL, Power BI, Python, and Excel.
-              I specialize in transforming raw data into meaningful business insights.
-            </p>
+        <div className="grid lg:grid-cols-2 gap-14 items-center mt-16">
 
-            <p>
-              I enjoy solving real-world business problems using data analysis,
-              dashboards, and automation techniques.
-            </p>
+          {/* Left Side */}
 
-            <p>
-              My goal is to become a highly skilled Data Analyst and contribute
-              to data-driven decision making in organizations.
-            </p>
+          <div>
+
+            <h3 className="text-3xl font-bold mb-6">
+              Passionate Data Analyst
+            </h3>
+
+            <div className="space-y-6 text-gray-400 leading-8 text-lg">
+
+              <p>
+                I am a Data Analyst with hands-on experience in SQL, Power BI,
+                Python, Excel. I enjoy transforming raw data into
+                interactive dashboards, meaningful reports, and actionable
+                business insights that support better decision-making.
+              </p>
+
+              <p>
+                Throughout my professional journey, I have worked with large
+                datasets, automated reporting processes, designed relational
+                databases, developed Power BI dashboards, and optimized SQL
+                queries to improve reporting efficiency and data accuracy.
+              </p>
+
+              <p>
+                I am passionate about continuous learning and enjoy solving
+                real-world business problems using data analytics,
+                visualization, and business intelligence tools. My goal is to
+                contribute to organizations by delivering data-driven solutions
+                that create measurable business value.
+              </p>
+
+            </div>
 
           </div>
 
-          {/* Right Side Card */}
-          <div className="bg-white/5 border border-white/10 p-8 rounded-2xl">
+          {/* Right Side */}
 
-            <h3 className="text-2xl font-semibold mb-4">
+          <div className="bg-slate-950 border border-slate-800 rounded-2xl p-8">
+
+            <h3 className="text-2xl font-bold mb-8 text-blue-400">
               Quick Highlights
             </h3>
 
-            <ul className="space-y-3 text-white/70">
+            <div className="space-y-5 text-lg">
 
-              <li>📊 3+ Projects Completed</li>
-              <li>💻 SQL, Python, Power BI</li>
-              <li>📈 Dashboard & Reporting</li>
-              <li>⚡ Automation & Data Cleaning</li>
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">💼</span>
+                <span>Currently working as a Data Analyst at Koderz Technology Pvt. Ltd.</span>
+              </div>
 
-            </ul>
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">📊</span>
+                <span>100K+ Records Cleaned & Analyzed</span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">📈</span>
+                <span>Interactive Power BI Dashboards</span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🗄️</span>
+                <span>Advanced SQL Database Development</span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🚀</span>
+                <span>3+ Data Analytics Projects</span>
+              </div>
+
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🏆</span>
+                <span>2 Virtual Internships (Accenture & PwC)</span>
+              </div>
+
+            </div>
 
           </div>
 

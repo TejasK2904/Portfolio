@@ -12,7 +12,7 @@ function Skills() {
     {
       icon: <Database size={40} />,
       title: "SQL",
-      description: "Writing complex queries, joins, views, stored procedures, and data analysis."
+      description: "Database design, joins, views, stored procedures and data analysis."
     },
     {
       icon: <BarChart3 size={40} />,
@@ -28,11 +28,6 @@ function Skills() {
       icon: <FileSpreadsheet size={40} />,
       title: "Excel",
       description: "Advanced Excel, Pivot Tables, Lookups, Charts, and MIS Reporting."
-    },
-    {
-      icon: <Table2 size={40} />,
-      title: "MySQL",
-      description: "Database design, optimization, indexing, and reporting."
     },
     {
       icon: <Brain size={40} />,
